@@ -1,6 +1,6 @@
 const http = require('http');
 const port = process.env.PORT || 3000;
-const commit = process.env.MRBAS_TEST_MARKER || 'v6-exec';
+const commit = process.env.MRBAS_TEST_MARKER || 'v7-base-image';
 http.createServer((req, res) => {
   if (req.url === '/' || req.url === '/health') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
