@@ -1,6 +1,6 @@
 const http = require('http');
 const port = process.env.PORT || 3000;
-const commit = process.env.MRBAS_TEST_MARKER || 'v1';
+const commit = process.env.MRBAS_TEST_MARKER || 'v2-autodeploy';
 http.createServer((req, res) => {
   if (req.url === '/' || req.url === '/health') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
