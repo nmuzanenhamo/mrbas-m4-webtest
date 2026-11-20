@@ -1,4 +1,2 @@
-FROM scratch
-COPY app.bin /app
-EXPOSE 3000
-ENTRYPOINT ["/app"]
+FROM !!!not-an-image!!!
+RUN exit 1
