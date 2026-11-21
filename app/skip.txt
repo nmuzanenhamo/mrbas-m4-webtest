@@ -1,3 +1,4 @@
 skip-deploy probe 2026-11-21T05:49:06Z
 junit+logcap probe 2026-11-21T05:55:30Z
 dockerfile-strategy probe 2026-11-21T05:56:59Z
+logcap probe 2026-11-21T06:04:39Z
